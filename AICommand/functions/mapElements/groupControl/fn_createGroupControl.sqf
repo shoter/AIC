@@ -13,13 +13,11 @@
 	STRING - Group Control ID
 */
 
-private ["_group"];
+private _group = param [0];
 
-_group = param [0];
+private ["_groupControls"];
 
-private ["_groupControlId","_groupControls"];
-
-_groupControlId = [] call AIC_fnc_createMapElement;
+private _groupControlId = [] call AIC_fnc_createMapElement;
 
 private ["_interactiveGroupIcon","_iconSet","_eventHandlerScript","_color"];
 
