@@ -14,10 +14,10 @@
 	is owned and controlled by the child.
 	
 	Parameter(s):
-	_this select 1: BOOLEAN - Is Visible (optional, default: true)
-	_this select 2: BOOLEAN - Are Events Enabled (optional, default: true)
-	_this select 3: BOOLEAN - Is In Foreground (optional, default: true)
-	_this select 4: STRING - Predefined Element Id (optional, must be unique)
+	_this select 0: BOOLEAN - Is Visible (optional, default: true)
+	_this select 1: BOOLEAN - Are Events Enabled (optional, default: true)
+	_this select 2: BOOLEAN - Is In Foreground (optional, default: true)
+	_this select 3: STRING - Predefined Element Id (optional, must be unique)
 		
 	Returns: 
 	STRING - Element Id
